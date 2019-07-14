@@ -42,9 +42,7 @@ Students have the following features:
 
 
 
-You should ensure that only reasonable values of age
-allowed to be added to the database. The age should  be numbers that greater than or equal to 18.
-
+You should ensure that only reasonable values of firstName, lastName and grade allowed to be added to the database. The age should be numbers that greater than or equal to 18.
 
 ## [License](LICENSE)
 
