@@ -7,7 +7,8 @@ mongoose.connect('mongodb://localhost/mongoose-crud', {
 })
 const db = mongoose.connection
 
-const Student = require('../models/student.js')
+//Here, Import the `models/student.js` to variable and called 'Student'
+// const Student = ...??
 
 const done = function () { // eslint-disable-line no-unused-vars
   db.close()
@@ -20,6 +21,7 @@ const create = function (firstName, lastName, grade, age, city) {
 
 const index = function () {
   /* Add Code Here */
+  
 }
 
 const show = function (id) {
@@ -35,7 +37,7 @@ const update = function (id, field, value) {
 }
 
 
-git 
+ 
 db.once('open', function () {
   const command = process.argv[2]
 
