@@ -31,7 +31,7 @@ you'll need to fill them up with code for doing CRUD on your new model.
 
 
 
-In your squads, repeat the previous exercise for a new resource, Students.
+The Schema of Students.
 Students have the following features:
 
 - firstName - (String, required) 
@@ -39,11 +39,10 @@ Students have the following features:
 - grade     - (Number, required)
 - age       - (Number, Greater than or equal 18)
 - city      - (String)
-- isPassed? (virtual)
 
 
 
-You should ensure that only reasonable values of firstName, lastName and longitude are
+You should ensure that only reasonable values of age
 allowed to be added to the database. The age should  be numbers that greater than or equal to 18.
 
 
