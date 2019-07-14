@@ -13,6 +13,11 @@ const done = function () { // eslint-disable-line no-unused-vars
   db.close()
 }
 
+
+const create = function (firstName, lastName, grade, age, city) {
+  /* Add Code Here */
+}
+
 const index = function () {
   /* Add Code Here */
 }
@@ -29,9 +34,7 @@ const update = function (id, field, value) {
   /* Add Code Here */
 }
 
-const create = function (firstName, lastName, grade, age, city) {
-  /* Add Code Here */
-}
+
 
 db.once('open', function () {
   const command = process.argv[2]
