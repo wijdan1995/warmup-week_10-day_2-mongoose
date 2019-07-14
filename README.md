@@ -21,7 +21,7 @@ By the end of this talk, developers should be able to:
 ## The Exercise
 
 ## Mongoose Schemas, Models, and Documents
-Create a new file in director '/modle/..' for your Mongoose model and called 'student.js', and load it from the `app-students.js`
+there a file Mongoose model called 'student.js' in `/modle/student.js` , and load it from the `app-students.js`
 file located in the `bin` directory; that file will provide a command-line UI
 for performing CRUD on you new Student resource.
 
